@@ -9,13 +9,14 @@ import Link from "@mui/material/Link";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 
-export default const Login = () => {
+ const Login = () => {
   const paperStyle = {
     padding: 20,
     height: "80vh",
     width: 350,
     margin: "30px auto",
   };
+
   const size = {
     height: 75,
     weight: 125,
@@ -141,3 +142,5 @@ export default const Login = () => {
     </Paper>
   );
 };
+
+export default Login;
