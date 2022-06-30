@@ -9,7 +9,7 @@ import Link from "@mui/material/Link";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 
-const Login = () => {
+export default const Login = () => {
   const paperStyle = {
     padding: 20,
     height: "80vh",
@@ -141,5 +141,3 @@ const Login = () => {
     </Paper>
   );
 };
-
-export default Login;
